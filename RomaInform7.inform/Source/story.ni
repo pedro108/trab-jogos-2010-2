@@ -1,23 +1,29 @@
-You are in the Streets of Ancient Rome.
-Runaway Gladiator is a person.
-The Coliseum of Ancient Rome is a room.
-The Streets of Ancient Rome is a room.
-The Streets is south of the Coliseum.
-Gates of the Coliseum is a scene.
-The Ticket for Gladitorial Game is a thing.
-The description of the Ticket is "A folded piece of paper with the sayings 'Ludi vehementi' and 'civis subsellia' that is in your pocket.".
-The Gladius is a thing.
-The description of the Gladius is "a two-edged sword for cutting and have a tapered point for stabbing during thrusting. A solid grip is provided by a knobbed hilt added on, with ridges for the fingers.".
-You carry a Ticket.
-Runaway Gladiator carries a Gladius.
-Runaway Gladiator is in the Streets of Ancient Rome.
-Gates of the Coliseum begins when the player is in the Streets of Ancient Rome for the first turn.
-Gates of the Coliseum ends when the player is in the Coliseum of Ancient Rome for the first turn.
+The Jardim is a room.
+The Entrada dos fundos is a room.
+The Tablinum is a room.
+The Peristilo is a room.
+The Caminho para a casa de Gaius is a room.
+The Jardim is south of the Caminho para a casa de Gaius.
+The Entrada dos fundos is west of the Jardim.
+The Peristilo is north of the Entrada dos fundos.
+The Tablinum is west of the Peristilo.
 
-When Gates of the Coliseum begins:
-	say "The ancient coliseum stands in front of you, calling you to enter its halls. The vicious sounds of battle echoes inside the arena, followed by the vigorous cheers of the audience. Do you want to enter?.".
+The Ingresso para os jogos gladiatoriais is a thing. The description is "Um pedaço de pergaminho dobrado com os dizeres: 'Ludi vehementi' e 'civis subsellia'".
+The Chave para a casa de seu mestre is a thing. The description is "Uma pequena chave de cobre usada na entrada dos fundos da casa de seu mestre, Aulus Petronius Cicero".
 
-When Gates of the Coliseum ends:
-	say "You walk into the Coliseum as its gates are opening before you.".
-	[move the player to the Coliseum of Ancient rome.]
-	
+The description of yourself is "Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.".
+The Aulus Petronius Cicero is a person. The description is "Seu senhor.".
+The Gaius Cornelius Commodus is a person. The description is "O amigo de seu senhor, que também desejava assistir aos jogos no Coliseu.".
+
+yourself is in the Jardim.
+Yourself carry a Chave.
+Aulus Petronius is in the Tablinum da casa do seu mestre.
+
+No jardim is a scene.
+
+When play begins: say "Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.".
+
+No jardim begins when play begins.
+
+When No Jardim begins:
+	say "Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.".
