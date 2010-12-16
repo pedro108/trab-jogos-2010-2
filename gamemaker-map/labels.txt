@@ -1,8 +1,8 @@
 360,330 Achaia
-465,455 Aegyptus
-215,365 Africa Proconsularis
+465,450 Aegyptus
+210,360 Africa Proconsularis
 211,233 Alpes Cottiae
-212,243 Alpes Maritimae
+213,244 Alpes Maritimae
 213,218 Alpes Poeniae
 160,220 Aquitania
 490,430 Arabia Petraea
@@ -12,7 +12,7 @@
  75,300 Baetica
 200,170 Belgica
 450,285 Bithynia Et Pontus
-160,125 Britannia
+165,120 Britannia
 505,295 Cappadocia
 490,330 Cilicia
 225,290 Corsica Et Sardinia
@@ -30,7 +30,7 @@
  65,265 Lusitania
 440,345 Lycia Et Pamphylia
 350,295 Macedonia
-135,350 Mauretania Caesariensis
+135,345 Mauretania Caesariensis
  45,350 Mauretania Tingitana
 560,345 Mesopotamia
 395,250 Moesia Inferior
