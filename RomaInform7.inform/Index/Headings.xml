@@ -3,9 +3,9 @@
 <plist version="1.0"><dict>
     <key>Application Version</key><string>6F95</string>
     <key>0</key><dict>
-        <key>Filename</key><string>/Volumes/DATA/Dropbox/UFRJ/TEES(Jogos)/RomaInform7.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/pedrohpj/Dropbox/UFRJ/TEES(Jogos)/trab-jogos-2010-2/RomaInform7.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
-        <key>Title</key><string>You are in the Streets of Ancient Rome</string>
+        <key>Title</key><string>Yourself is named Numerius Petronius Herculius</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>

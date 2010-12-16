@@ -1,4 +1,5 @@
-You are in the Streets of Ancient Rome.
+The description of yourself is "You are a slave "
+Yourself are in the Streets of Ancient Rome.
 Runaway Gladiator is a person.
 The Coliseum of Ancient Rome is a room.
 The Streets of Ancient Rome is a room.
