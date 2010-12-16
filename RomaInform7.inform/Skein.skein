@@ -1,28 +1,34 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x18606580" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18606580" />
+  <activeNode nodeId="node-0x1ed07190" />
   <item nodeId="node-0x18606580">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
+Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.
+
+Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.
+
 Welcome
 An Interactive Fiction
 Release 1 / Serial number 101216 / Inform 7 build 6F95 (I6/v6.31 lib 6/12N) SD
 
-Streets of Ancient Rome
-You can see Runaway Gladiator here.
+Jardim
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="9">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="19">NO</temporary>
     <children>
+      <child nodeId="node-0x2f1660" />
+      <child nodeId="node-0x1863cd80" />
       <child nodeId="node-0x18605fb0" />
       <child nodeId="node-0x18606670" />
-      <child nodeId="node-0x1863cd80" />
+      <child nodeId="node-0x18b94410" />
+      <child nodeId="node-0x18b502b0" />
       <child nodeId="node-0x186066e0" />
       <child nodeId="node-0x18b63ee0" />
       <child nodeId="node-0x18606620" />
@@ -108,26 +114,74 @@ Coliseum of Ancient Rome
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x1863cd80">
-    <command xml:space="preserve">see ticket</command>
+  <item nodeId="node-0x18b502b0">
+    <command xml:space="preserve">items</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x2eaf30" />
+      <child nodeId="node-0x18bb7670" />
     </children>
   </item>
-  <item nodeId="node-0x2eaf30">
-    <command xml:space="preserve">move runaway gladiator</command>
-    <result xml:space="preserve">That would be less than courteous.
+  <item nodeId="node-0x18bb7670">
+    <command xml:space="preserve">inventary</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ed07190" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ed07190">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x18b94410">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x18bca980" />
+    </children>
+  </item>
+  <item nodeId="node-0x18bca980">
+    <command xml:space="preserve">go jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x186937d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x186937d0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Jardim
+Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos. Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
   </item>
   <item nodeId="node-0x18606670">
     <command xml:space="preserve">hi</command>
@@ -159,5 +213,62 @@ Coliseum of Ancient Rome
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1863cd80">
+    <command xml:space="preserve">see ticket</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x2eaf30" />
+    </children>
+  </item>
+  <item nodeId="node-0x2eaf30">
+    <command xml:space="preserve">move runaway gladiator</command>
+    <result xml:space="preserve">That would be less than courteous.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x2f1660">
+    <command xml:space="preserve">go jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x18b377d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18b377d0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Caminho para a casa de Gaius
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x186c6300" />
+    </children>
+  </item>
+  <item nodeId="node-0x186c6300">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Jardim
+Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos. Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
   </item>
 </Skein>
