@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="160"
+   height="400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Labels.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.0517578"
+     inkscape:cx="20.476058"
+     inkscape:cy="303.40094"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="780"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3761"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       spacingx="8px"
+       spacingy="8px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36218)">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:113.99999857%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="4.0410156"
+       y="665.56824"
+       id="text2985"
+       sodipodi:linespacing="114%"><tspan
+         sodipodi:role="line"
+         id="tspan3763"
+         x="4.0410156"
+         y="665.56824">Texto 1</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3765"
+         x="4.0410156"
+         y="681.52826">Texto 2</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3767"
+         x="4.0410156"
+         y="697.48822">Texto 3</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3769"
+         x="4.0410156"
+         y="713.44824">Texto 4</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3771"
+         x="4.0410156"
+         y="729.40826">Texto 5</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3773"
+         x="4.0410156"
+         y="745.36823">Texto 6</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3775"
+         x="4.0410156"
+         y="761.32825">Texto 7</tspan><tspan
+         sodipodi:role="line"
+         id="tspan3777"
+         x="4.0410156"
+         y="777.28821">Texto 8</tspan></text>
+  </g>
+</svg>
