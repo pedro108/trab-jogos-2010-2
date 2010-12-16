@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x2c0790" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x2c0790" />
+  <item nodeId="node-0x2c0790">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+The ancient coliseum stands in front of you, calling you to enter its halls. The vicious sounds of battle echoes inside the arena, followed by the vigorous cheers of the audience. Do you want to enter?.
+
+Welcome
+An Interactive Fiction
+Release 1 / Serial number 101116 / Inform 7 build 6F95 (I6/v6.31 lib 6/12N) SD
+
+Streets of Ancient Rome
+You can see You and Runaway Gladiator here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0x2c0a60" />
+      <child nodeId="node-0x2c09d0" />
+      <child nodeId="node-0x2c0940" />
+      <child nodeId="node-0x2c0820" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c0820">
+    <command xml:space="preserve">go Coliseum</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x2c08b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c08b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Coliseum of Ancient Rome
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c0940">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Coliseum of Ancient Rome
+You walk into the Coliseum as its gates are opening before you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c09d0">
+    <command xml:space="preserve">hi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c0a60">
+    <command xml:space="preserve">take gladius</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>
