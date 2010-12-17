@@ -25,6 +25,7 @@ with open(INPUT_FILE, "r") as f:
                 'label_array[{0}, 0] = "{3}"; // nome\n'
                 'label_array[{0}, 1] = {1}; // x\n'
                 'label_array[{0}, 2] = {2}; // y\n'
+                '//label_array[{0}, 3] = 0; // object instance\n'
             ).format(
                 label_num, x, y, nome
             )
