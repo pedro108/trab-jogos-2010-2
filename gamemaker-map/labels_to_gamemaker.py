@@ -12,6 +12,7 @@ with open(INPUT_FILE, "r") as f:
     for line in f:
         line = line.strip()
         if line:
+            # coord_x,coord_y Some Name Here
             coords, nome = line.split(" ", 1)
             x, y = coords.split(",")
             print (
