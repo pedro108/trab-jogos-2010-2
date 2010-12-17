@@ -15,5 +15,5 @@ w, h = im.size
 
 for i in range(h//TILE_HEIGHT):
     box = (0, i*TILE_HEIGHT, w, (i+1)*TILE_HEIGHT)
-    region = im.crop(box)    
+    region = im.crop(box)
     region.save("label_{0}.png".format(i), "PNG")
