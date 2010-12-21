@@ -1,0 +1,1527 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x16ca5210" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x19596a20" />
+  <item nodeId="node-0x16ca5210">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.
+
+Agora você se encontra no Jardim de seu mestre, cuidando de suas gladioli. Você deve agora podar algumas de suas folhas. Você pode ver a entrada para a casa do seu mestre a oeste.
+
+Welcome
+An Interactive Fiction
+Release 1 / Serial number 101221 / Inform 7 build 6F95 (I6/v6.31 lib 6/12N) SD
+
+Jardim
+You can see a Gladioli here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">NO</temporary>
+    <children>
+      <child nodeId="node-0x19510d20" />
+      <child nodeId="node-0x19510cb0" />
+      <child nodeId="node-0x19510310" />
+      <child nodeId="node-0x1950fd60" />
+      <child nodeId="node-0x1950fc10" />
+      <child nodeId="node-0x1950f9e0" />
+      <child nodeId="node-0x1950f900" />
+      <child nodeId="node-0x1950f820" />
+      <child nodeId="node-0x1950f350" />
+      <child nodeId="node-0x19501970" />
+      <child nodeId="node-0x1950f740" />
+      <child nodeId="node-0x1950ed30" />
+      <child nodeId="node-0x1950ec50" />
+      <child nodeId="node-0x1950f580" />
+      <child nodeId="node-0x1950d050" />
+      <child nodeId="node-0x1950cf70" />
+      <child nodeId="node-0x59c890" />
+    </children>
+  </item>
+  <item nodeId="node-0x59c890">
+    <command xml:space="preserve">prune gladioli</command>
+    <result xml:space="preserve">Você poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+A pessoa é um dos escravos de seu mestre, ele se chama Felix, e dirige a palavra a você.
+
+Felix: Nosso senhor deseja vê-lo, ele o está esperando no Tablinum. Vá logo antes que seja punido.
+Você pode ver a porta dos fundos a oeste.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x19448c50" />
+      <child nodeId="node-0x5ba490" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ba490">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195e10d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195e10d0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Porta dos fundos)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x1943df90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1943df90">
+    <command xml:space="preserve">unlock porta with chave</command>
+    <result xml:space="preserve">You unlock the Porta dos fundos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195bb470" />
+    </children>
+  </item>
+  <item nodeId="node-0x195bb470">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Porta dos fundos)
+
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x5f3840" />
+    </children>
+  </item>
+  <item nodeId="node-0x5f3840">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+Os muros do tablinum são decorados com pinturas, e bustos da família de seu mestre estão dispostos nos dois lados do quarto. O tablinum serve de escritório, e é onde o seu mestre recebe os seus clientes.
+
+You can see an Aulus Petronius Cicero here.
+
+Seu senhor se encontra na escrivaninha, assinando vários pergaminhos. Logo que você chega ao tablinum, ele se dirige a você, com um pedaço de pergaminho na mão, e diz:&quot;Escravo, tenho uma tarefa especial para você. Pegue esse pergaminho e entregue para meu amigo Gaius, que mora ao norte daqui. Use a saída dos fundos.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x523210" />
+    </children>
+  </item>
+  <item nodeId="node-0x523210">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x2a1480" />
+    </children>
+  </item>
+  <item nodeId="node-0x2a1480">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+Os muros do tablinum são decorados com pinturas, e bustos da família de seu mestre estão dispostos nos dois lados do quarto. O tablinum serve de escritório, e é onde o seu mestre recebe os seus clientes.
+
+You can see an Aulus Petronius Cicero here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x16c12780" />
+    </children>
+  </item>
+  <item nodeId="node-0x16c12780">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x5a1e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x5a1e00">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195f10e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195f10e0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195e07b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195e07b0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x16c8fd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x16c8fd60">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195f1020" />
+    </children>
+  </item>
+  <item nodeId="node-0x195f1020">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x1942ef80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1942ef80">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x16c6e1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16c6e1c0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Jardim
+You can see a Felix and a Gladioli here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x195f14d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195f14d0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Caminho para a casa de Gaius
+caminho que leva a casa de Gaius, o amigo do mestre a quem  felix devera entregar o ingresso, tambem leva a estrada principal com destino a cidade de Roma onde se localiza o Coliseum.
+
+You can see Adora Kaab here.
+
+Você se aproxima da mulher e pergunta: qual é o seu nome.
+Adora Kaab olha para felix, mas nao responde nada e segue seu caminho.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x19448c50">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x195c22a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195c22a0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Jardim
+You can see a Felix and a Gladioli here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x19441e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19441e00">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950cf70">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Chave para a casa de seu mestre
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950cfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950cfe0">
+    <command xml:space="preserve">look Chave</command>
+    <result xml:space="preserve">Uma pequena chave de cobre usada na entrada dos fundos da casa de seu mestre, Aulus Petronius Cicero
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950d050">
+    <command xml:space="preserve">go Coliseum</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950d0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950d0c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Coliseum of Ancient Rome
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f580">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Coliseum of Ancient Rome
+You walk into the Coliseum as its gates are opening before you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f5f0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Streets of Ancient Rome
+You can see You and Runaway Gladiator here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f660" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f660">
+    <command xml:space="preserve">go Coliseum of Ancient Rome</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f6d0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Coliseum of Ancient Rome
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950ec50">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950ecc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ecc0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950ed30">
+    <command xml:space="preserve">what is gladioli</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950eda0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950eda0">
+    <command xml:space="preserve">look the gladioli</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950ee10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ee10">
+    <command xml:space="preserve">go the west</command>
+    <result xml:space="preserve">Você⼅ deve terminar seu trabalho no jardim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950ee80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ee80">
+    <command xml:space="preserve">prune the gladioli which the tesoura</command>
+    <result xml:space="preserve">I only understood you as far as wanting to prune the Gladioli.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950eef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950eef0">
+    <command xml:space="preserve">west the peristilo</command>
+    <result xml:space="preserve">I only understood you as far as wanting to west the Gladioli.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950ef60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ef60">
+    <command xml:space="preserve">Chave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950efd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950efd0">
+    <command xml:space="preserve">description the chave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f040" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f040">
+    <command xml:space="preserve">what&apos;s chave</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f0b0">
+    <command xml:space="preserve">carry a Chave</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f120" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f120">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f190" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f190">
+    <command xml:space="preserve">Peristilo</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f200" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f200">
+    <command xml:space="preserve">room</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f270">
+    <command xml:space="preserve">verb I recognise.</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x1950f2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f2e0">
+    <command xml:space="preserve">felix prune the gladioli which the tesoura</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <commentary xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+  </item>
+  <item nodeId="node-0x1950f740">
+    <command xml:space="preserve">cut the Gladioli with the Tesoura</command>
+    <result xml:space="preserve">I only understood you as far as wanting to cut the Gladioli.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f7b0">
+    <command xml:space="preserve">cut the Gladioli with Tesoura</command>
+    <result xml:space="preserve">I only understood you as far as wanting to cut the Gladioli.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0x19501970">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e5630" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e5630">
+    <command xml:space="preserve">examine me</command>
+    <result xml:space="preserve">Você é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um ávido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ede30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ede30">
+    <command xml:space="preserve">examine gladioli</command>
+    <result xml:space="preserve">Flores de fácil crescimento, especialmente usadas em arranjos florais. Gladioli produzem espinhos altos com muitas flores, formando um arco-íris de cores.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x19500df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19500df0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Chave para a casa de seu mestre
+  a Tesoura para poda
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x596920" />
+    </children>
+  </item>
+  <item nodeId="node-0x596920">
+    <command xml:space="preserve">prune gladioli</command>
+    <result xml:space="preserve">Você poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+A pessoa é um dos escravos de seu mestre, ele se chama Felix, e dirige a palavra a você.
+
+Felix: Nosso senhor deseja vê-lo, ele o está esperando no Tablinum. Vá logo antes que seja punido.
+Você pode ver a porta dos fundos a oeste.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x195c4400" />
+    </children>
+  </item>
+  <item nodeId="node-0x195c4400">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte. Você pode ver também uma casa parecida com a de seu senhor a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x195e32b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195e32b0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Você não recebeu ordens para se afastar da casa de seu senhor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x19589340" />
+    </children>
+  </item>
+  <item nodeId="node-0x19589340">
+    <command xml:space="preserve">unlock porta with chave</command>
+    <result xml:space="preserve">You unlock the Porta dos fundos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x19441c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x19441c40">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Porta dos fundos)
+
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x19422860" />
+    </children>
+  </item>
+  <item nodeId="node-0x19422860">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+Os muros do tablinum são decorados com pinturas, e bustos da família de seu mestre estão dispostos nos dois lados do quarto. O tablinum serve de escritório, e é onde o seu mestre recebe os seus clientes.
+
+You can see an Aulus Petronius Cicero here.
+
+Seu senhor se encontra na escrivaninha, assinando vários pergaminhos. Logo que você chega ao tablinum, ele se dirige a você, com um pedaço de pergaminho na mão, e diz:&quot;Escravo, tenho uma tarefa especial para você. Pegue esse pergaminho e entregue para meu amigo Gaius, que mora ao norte daqui. Use a saída dos fundos.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x21fb00" />
+    </children>
+  </item>
+  <item nodeId="node-0x21fb00">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+O Peristilo é a um corredor coberto e circundante, aberto lateralmente através de uma ou mais fiadas de colunas. O tablinum se encontra a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x195bbcf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195bbcf0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+Você está na entrada dos fundos da casa de seu mestre, normalmente usada por seus escravos. Você pode ver uma porta para o peristilo ao norte. Você pode ver também uma casa parecida com a de seu senhor a oeste.
+
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x195e0690" />
+    </children>
+  </item>
+  <item nodeId="node-0x195e0690">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Caminho para a casa de Gaius
+caminho que leva a casa de Gaius, o amigo do mestre a quem você deverá entregar o ingresso, tambem leva a estrada principal com destino a cidade de Roma onde se localiza o Coliseum.
+
+You can see Adora Kaab here.
+
+Você se aproxima da mulher e pergunta: qual é o seu nome.
+Adora Kaab olha para você, mas nao responde nada e segue seu caminho.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x19596a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x19596a20">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Caminho para Roma
+Caminho percorrido por você até o Coliseum.
+
+You can see a Coliseum here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f350">
+    <command xml:space="preserve">cut gladioli</command>
+    <result xml:space="preserve">Você⼅ poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f510" />
+      <child nodeId="node-0x1950f3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f3c0">
+    <command xml:space="preserve">look Felix</command>
+    <result xml:space="preserve">Um dos escravos de seu senhor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f430" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f430">
+    <command xml:space="preserve">examine Jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f4a0">
+    <command xml:space="preserve">examine Felix</command>
+    <result xml:space="preserve">Um dos escravos de seu senhor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="44">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f510">
+    <command xml:space="preserve">cut gladioli with tesoura</command>
+    <result xml:space="preserve">I only understood you as far as wanting to cut the Gladioli.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f820">
+    <command xml:space="preserve">prune Gladioli</command>
+    <result xml:space="preserve">Você⼅ poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f890">
+    <command xml:space="preserve">cut Gladioli</command>
+    <result xml:space="preserve">Você⼅ poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f900">
+    <command xml:space="preserve">go street</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950f970" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950f970">
+    <command xml:space="preserve">go Streets of Ancient Rome</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950f9e0">
+    <command xml:space="preserve">use Tesoura</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fa50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fa50">
+    <command xml:space="preserve">use Tesoura on Gladioli</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fac0">
+    <command xml:space="preserve">look Jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fb30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fb30">
+    <command xml:space="preserve">look Gladioli</command>
+    <result xml:space="preserve">Flores de fá⼅cil crescimento, especialmente usadas em arranjos florais. Gladioli produzem espinhos altos com muitas flores, formando um arco-íris de cores.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fba0">
+    <command xml:space="preserve">look Tesoura</command>
+    <result xml:space="preserve">Tesoura de ferro usada pelos eschravos para podar as plantas do jardim de seu mestre.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950fc10">
+    <command xml:space="preserve">go jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fc80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fc80">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Caminho para a casa de Gaius
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fcf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fcf0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Jardim
+Vocêo é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um áuvido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos. Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950fd60">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Você⼅ deve terminar seu trabalho no jardim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fdd0" />
+      <child nodeId="node-0x19510150" />
+      <child nodeId="node-0x19510230" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510230">
+    <command xml:space="preserve">open gladioli</command>
+    <result xml:space="preserve">That&apos;s not something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0x195102a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195102a0">
+    <command xml:space="preserve">cut gladioli</command>
+    <result xml:space="preserve">Cutting that up would achieve little.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+  </item>
+  <item nodeId="node-0x19510150">
+    <command xml:space="preserve">go jardim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x195101c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195101c0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Jardim
+Vocêo é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um áuvido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos. Agora você se encontra no Jardim de seu mestre, cuidando de suas petúnias.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x1950fdd0">
+    <command xml:space="preserve">prune gladioli</command>
+    <result xml:space="preserve">Você⼅ poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+A pessoa é um dos escravos de seu mestre, ele se chama Felix, e dirige a palavra a você..
+
+Felix: Nosso senhor deseja vê-lo, ele o está esperando no Tablinum. Vá logo antes que seja punidovoc
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950fe40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950fe40">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950feb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950feb0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Porta dos fundos)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950ff20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ff20">
+    <command xml:space="preserve">unlock Porta with Chave</command>
+    <result xml:space="preserve">You unlock the Porta dos fundos.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x1950ff90" />
+    </children>
+  </item>
+  <item nodeId="node-0x1950ff90">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the Porta dos fundos)
+
+Peristilo
+You can see a Porta dos fundos here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510000" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510000">
+    <command xml:space="preserve">examine me</command>
+    <result xml:space="preserve">Você⼅ é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um áuvido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos.謠ᛏ鷠ᛏ麐ᛏ놠ᛏ뉐ᛏ
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510070" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510070">
+    <command xml:space="preserve">examine i</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+    <children>
+      <child nodeId="node-0x195100e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195100e0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Chave para a casa de seu mestre
+  a Tesoura para poda
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="76">YES</temporary>
+  </item>
+  <item nodeId="node-0x19510310">
+    <command xml:space="preserve">examine me</command>
+    <result xml:space="preserve">Você⼅ é um escravo do tempo da Roma Antiga. Você sempre escutou estórias emocionantes sobre os jogos gladiatoriais contadas pelo seu mestre, que é um áuvido frequentador do grandioso Coliseu de Roma. Portanto, seu sonho maior é assistir pelo menos uma vez um desses combates épicos. Agora voc
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510380" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510380">
+    <command xml:space="preserve">examine Gladioli</command>
+    <result xml:space="preserve">Flores de fá⼅cil crescimento, especialmente usadas em arranjos florais. Gladioli produzem espinhos altos com muitas flores, formando um arco-íris de cores.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195103f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195103f0">
+    <command xml:space="preserve">prune Gladioli</command>
+    <result xml:space="preserve">Você⼅ poda perfeitamente a gladioli do jardim de seu mestre. Assim que você termina seu trabalho você observa uma pessoa se aproximando.
+
+Felix: Nosso senhor deseja vê-lo, ele o está esperando no Tablinum. Vá logo antes que seja punido.
+
+A pessoa é um dos escravos de seu mestre, ele se chama Felix, e dirige a palavra a você.tr
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510460" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510460">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Entrada dos fundos
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195104d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195104d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Chave para a casa de seu mestre
+  a Tesoura para poda
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510540" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510540">
+    <command xml:space="preserve">examine Chave</command>
+    <result xml:space="preserve">Uma pequena chave de cobre usada na entrada dos fundos da casa de seu mestre, Aulus Petronius Cicero
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195105b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195105b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Peristilo
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510620" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510620">
+    <command xml:space="preserve">examine Tesoura</command>
+    <result xml:space="preserve">Tesoura de ferro usada pelos escravos para podar as plantas do jardim de seu mestre.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510690" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510690">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510700" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510700">
+    <command xml:space="preserve">examine Aulus</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510770" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510770">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195107e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195107e0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510850" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510850">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195108c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195108c0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Tablinum
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510930" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510930">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Peristilo
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x195109a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x195109a0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510a10">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510a80">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510af0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510b60">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510bd0">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510c40">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">
+
+    *** Você demorou muito para cumprir o chamado de seu mestre, isso é uma ofensa grave, e você irái ser castigado e preso durante duas semanas. ***
+
+
+In that game you scored 0 out of a possible 0, in 21 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+  </item>
+  <item nodeId="node-0x19510cb0">
+    <command xml:space="preserve">examine Felix</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+  </item>
+  <item nodeId="node-0x19510d20">
+    <command xml:space="preserve">items</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510d90">
+    <command xml:space="preserve">inventary</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x19510e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19510e00">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+</Skein>
